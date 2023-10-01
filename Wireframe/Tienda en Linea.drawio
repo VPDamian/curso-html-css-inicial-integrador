@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-10-01T02:22:47.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Campaign ni2)" etag="TIQGH2EaCZet_O7DKopk" version="22.0.0" type="device">
+  <diagram name="Page-1" id="2cc2dc42-3aac-f2a9-1cec-7a8b7cbee084">
+    <mxGraphModel dx="2418" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="-1160" y="-1651" width="1110" height="824" as="geometry" />
+        </mxCell>
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" parent="J2UCvn-4iJ-qASJBO4F3-1" vertex="1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="J2UCvn-4iJ-qASJBO4F3-1" vertex="1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="J2UCvn-4iJ-qASJBO4F3-1" vertex="1">
+          <mxGeometry y="110" width="1110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_marketplace;" parent="J2UCvn-4iJ-qASJBO4F3-1" vertex="1">
+          <mxGeometry x="520" y="110" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-11" value="Iniciar Sesion" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" parent="J2UCvn-4iJ-qASJBO4F3-1" vertex="1">
+          <mxGeometry x="960" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J2UCvn-4iJ-qASJBO4F3-12" value="Crear Cuenta" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" parent="J2UCvn-4iJ-qASJBO4F3-1" vertex="1">
+          <mxGeometry x="960" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PFP66u5YC3WLjHLZGdA7-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-1370" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
