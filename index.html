@@ -8,6 +8,11 @@
     <meta name="author" content="Diego Damian Van Pamel">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <title>Helena`s</title>
+    <style>
+            header {background:lightcyan}
+            body {background:snow}
+            footer{background:lightcyan}
+    </style>
 </head>
 <body>
     <header> 
@@ -15,55 +20,125 @@
         <img src="./HELENAS-.png" alt="Logo de la Tienda">
     </a>
     <nav>
-        <ul>
-            <li><a href="">Indumentaria</a></li>
-            <li><a href="">Joyeria</a></li>
-            <li><a href="">Accesorios</a></li>
-            <li>Hogar</li>
-            <li>Outlet</li>
-            <li>FAQ</li>
-            <li>Envios</li>
-            <li><a href="contacto.html">
-                Contactanos</a></li>
-        </ul>
+            <div>
+                <a href="">Indumentaria</a>
+                <a href="">Joyeria</a>
+                <a href="">Accesorios</a>
+                <a href="">Hogar</a>
+                <a href="">Outlet</a>
+                <a href="">FAQ</a>
+                <a href="">Envios</a>
+                <a href="contacto.html">
+                Contactanos</a>
+            </div> 
     </nav>
+    <form name="contacto" method="GET" action="file:///C:/Users/Sentey/Documents/curso-html-css-inicial-integrador/index.html" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Iniciar Sesion</legend>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" type="email" autocomplete placeholder="Ingrese su Email" required>
+            </div>
+
+            <div>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" type="password"placeholder="Ingrese su Contraseña" required>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar(1)">
+                <input type="submit" value="Crear Cuenta">
+            
+            </div>
+        </fieldset>
+    </form>
         
 </header>
    
     <h2>Bienvenidos a la Tienda!</h2>
-    
+    <!--en cada fieldset iria una flecha o una especie de signo mayor y menor para deslizar las fotos-->
     <section id="principal products">
         <div>
-            <h1>Productos Destacados</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, rerum quam voluptatibus vitae tempore sapiente atque incidunt! Eligendi dolorum dignissimos quos sequi officia quidem culpa mollitia suscipit, tempora veniam officiis?</p>
+            <fieldset>
+                <legend>
+                    <h1>Productos Destacados</h1>
+                </legend>
+                <img src="./img/gratis-png-menos-que-el-signo-.png" width="50" alt="imagen de Producto">
+                <img src="./img/imagen1.jpg" width="200" alt="imagen de Producto">
+                <img src="./img/imagen4.jpg" width="270" alt="imagen de Producto">
+                <img src="./img/png-transparent-greater-than.png" width="50" alt="imagen de Producto">
+
+            </fieldset>
         </div>
 
     </section>
     <section id="discounts">
         <div>
-            <h1>Ofertas</h1>
+            <fieldset>
+                <legend>
+                    <h1>Ofertas</h1>
+                </legend>
+                <img src="./img/gratis-png-menos-que-el-signo-.png" width="50" alt="imagen de Producto">
+                <img src="./img/imagen2.jpg" width="200" alt="imagen de Producto">
+                <img src="./img/imagen5.jpg" width="250" alt="imagen de Producto">
+                <img src="./img/png-transparent-greater-than.png" width="50" alt="imagen de Producto">
+            </fieldset>
+            
         </div>    
     </section>
 
     <section id="new merchadise">
         <div>
-            <h1>Nueva Mercancia</h1>
+            <fieldset>
+                <legend>
+                    <h1>Nueva Mercancia</h1>
+                </legend>
+                <img src="./img/gratis-png-menos-que-el-signo-.png" width="50" alt="imagen de Producto">
+                <img src="./img/imagen3.jpg" width="160" alt="imagen de Producto">
+                <img src="./img/imagen6.jpg" width="250" alt="imagen de Producto">
+                <img src="./img/png-transparent-greater-than.png" width="50" alt="imagen de Producto">
+            </fieldset>
+            
         </div>
 
     </section>
+
+    <h2>Recibi todas nuestras promos y ofertas!</h2>
+    <p>Te gustaria recibirlas? registrate y comenza a disfrutarlas</p>
+        <label for="email" ></label>
+        <input type="email" name="email"placeholder="Email">
+        <input type="submit" value="Enviar">
+
 
 
     
     
 </body>
 <footer>
-    <h1>Medios de Pago</h1>
-    <ul>
-        <li>Tarjetas de Debito</li>
-        <li>Tarjetas de Credito</li>
-        <li>Mercado Pago</li>
-        <li>Efectivo</li>
-        <li>Transferencia de Banco</li>
-    </ul>
+    <div>
+        <h1>Medios de Pago</h1>
+        <ul>
+            <li>Tarjetas de Debito</li>
+            <li>Tarjetas de Credito</li>
+            <li>Mercado Pago</li>
+            <li>Efectivo</li>
+            <li>Transferencia de Banco</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Seguinos!</h1>
+        <a href="https://www.facebook.com/diegodamian.vanpamel" target="_blank">
+        <img src="./img/3d-render-facebook.png" width="50" alt="facebook"></a>
+
+        <a href="https://www.instagram.com/helenaa.acc/" target="_blank">
+        <img src="./img/3d-render-instagram.png" width="50" alt="instagram"></a>
+
+        <a href="" target="_blank">
+            <img src="./img/twitter-logo-9.png" width="50" alt="instagram"></a>
+
+
+    </div>
+    
+
 </footer>
 </html>

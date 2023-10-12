@@ -8,6 +8,11 @@
     <meta name="author" content="Diego Damian Van Pamel">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <title>Helena`s</title>
+    <style>
+        header {background:lightcyan}
+        body {background:snow}
+        footer{background:lightcyan}
+</style>
     
 </head>
 <body>
@@ -16,32 +21,99 @@
         <img src="./HELENAS-.png" alt="Logo de la Tienda">
     </a>
     <nav>
-        <ul>
-            <li><a href="">Indumentaria</a></li>
-            <li><a href="">Joyeria</a></li>
-            <li><a href="">Accesorios</a></li>
-            <li>Hogar</li>
-            <li>Outlet</li>
-            <li>FAQ</li>
-            <li>Envios</li>
-            <li><a href="contacto.html">
-                Contactanos</a></li>
-        </ul>
-    </nav>
+        <div>
+            <a href="">Indumentaria</a>
+            <a href="">Joyeria</a>
+            <a href="">Accesorios</a>
+            <a href="">Hogar</a>
+            <a href="">Outlet</a>
+            <a href="">FAQ</a>
+            <a href="">Envios</a>
+            <a href="contacto.html">
+            Contactanos</a>
+        </div> 
+</nav>
+<form name="contacto" method="GET" action="file:///C:/Users/Sentey/Documents/curso-html-css-inicial-integrador/index.html" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Iniciar Sesion</legend>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" type="email" autocomplete placeholder="Ingrese su Email" required>
+        </div>
+
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" type="password"placeholder="Ingrese su Contraseña" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar(1)">
+            <input type="submit" value="Crear Cuenta">
+        
+        </div>
+    </fieldset>
+</form>
         
 </header>
-    <ul>
-    <li><a href="https://www.instagram.com/helenaa.acc/">
-        Seguinos en Instagram
-    </a></li>
-    <li><a href="https://www.facebook.com/diegodamian.vanpamel">
-        Seguinos en Facebook
-    </a></li>
-    <li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d413.02311851451475!2d-59.03569744047547!3d-34.09040221283052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb0b0d4843c8bf%3A0xf68e7059d6f7de16!2sNitro%20Fitness%20Gym!5e0!3m2!1ses!2sar!4v1696125690752!5m2!1ses!2sar" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </li>    
-</ul>
-</body>
+    <h1>Sobre Nuestra Tienda</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, odio! Quam dolores cumque aliquid quas ex? Quis ut adipisci praesentium aut nobis. Doloremque eius inventore dolor quia commodi eum? Aut?</p>
 
+        <h1>Horario de Atencion</h1>
+        <p>Lunes a Sabado de 11 a 18hrs (Feriados Cerrado)</p>
+
+        <h1>Direccion del local</h1>
+   <!--Formulario de Contacto Aqui-->
+   <div>
+        <h1>Formulario de Contacto</h1>
+            <form action="" method="get">
+                <fieldset>
+                    <legend><h3>Mensaje</h3></legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email"name="email" required>
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="number" name="telefono" required>
+
+                    <label for="description">Mensaje</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                    <button type="submit"> Enviar Mensaje </button>
+                </fieldset>
+            </form>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d413.02311851451475!2d-59.03569744047547!3d-34.09040221283052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb0b0d4843c8bf%3A0xf68e7059d6f7de16!2sNitro%20Fitness%20Gym!5e0!3m2!1ses!2sar!4v1696125690752!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+<footer>
+    <div>
+        <h1>Medios de Pago</h1>
+        <ul>
+            <li>Tarjetas de Debito</li>
+            <li>Tarjetas de Credito</li>
+            <li>Mercado Pago</li>
+            <li>Efectivo</li>
+            <li>Transferencia de Banco</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Seguinos!</h1>
+        <a href="https://www.facebook.com/diegodamian.vanpamel" target="_blank">
+        <img src="./img/3d-render-facebook.png" width="50" alt="facebook"></a>
+
+        <a href="https://www.instagram.com/helenaa.acc/" target="_blank">
+        <img src="./img/3d-render-instagram.png" width="50" alt="instagram"></a>
+
+        <a href="" target="_blank">
+        <img src="./img/twitter-logo-9.png" width="50" alt="instagram"></a>
+        
+        <h3>Telefono de contacto</h3>
+        <h3>Direccion</h3>
+    </div>
+    
+
+</footer>
 </html>
 
 
