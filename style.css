@@ -1,0 +1,48 @@
+header {background:lightcyan;
+        
+}
+
+nav{
+    background-color: lightcyan;
+}
+
+form{
+    background-color: lightcyan;
+}
+
+body {background:rgba(199, 228, 235, 0.893);
+        
+        
+        
+}
+footer{background:lightcyan;}
+a{
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+}
+
+h1 { 
+    text-shadow: 3px 3px 3px lightcoral;
+    color: black;
+}
+
+h2{
+    text-shadow: 3px 3px 3px rgb(225, 119, 5);
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+footer{
+        background-color: lightcyan;
+        
+}
+h1#medios{
+    color: black;
+}
+
+h1#redes{
+    color: black;
+}
