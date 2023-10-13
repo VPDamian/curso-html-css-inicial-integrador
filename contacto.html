@@ -8,17 +8,14 @@
     <meta name="author" content="Diego Damian Van Pamel">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <title>Helena`s</title>
-    <style>
-        header {background:lightcyan}
-        body {background:snow}
-        footer{background:lightcyan}
-</style>
+    
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
     <header> 
         <a href="http://127.0.0.1:5500" target="_self">
-        <img src="./HELENAS-.png" alt="Logo de la Tienda">
+        <img src="./HELENAS--PhotoRoom.png-PhotoRoom.png" alt="Logo de la Tienda">
     </a>
     <nav>
         <div>
@@ -31,9 +28,10 @@
             <a href="">Envios</a>
             <a href="contacto.html">
             Contactanos</a>
+
         </div> 
 </nav>
-<form name="contacto" method="GET" action="http://127.0.0.1:5500" enctype="multipart/form-data">
+<form name="contacto" method="get" action="http://127.0.0.1:5500" enctype="multipart/form-data">
     <fieldset>
         <legend>Iniciar Sesion</legend>
         <div>
@@ -61,10 +59,16 @@
         <h1>Horario de Atencion</h1>
         <p>Lunes a Sabado de 11 a 18hrs (Feriados Cerrado)</p>
 
-        <h1>Direccion del local</h1>
+        <h1>Recibimos Consultas por Whattsapp</h1>
+            <p>Cel: 11458696223</p>
+
+        <h1>Visita Nuestra Tienda</h1>
+            <p>Rivadavia 1278, Zarate Buenos Aires,
+                Codigo Postal: 2800
+            </p>
    <!--Formulario de Contacto Aqui-->
    <div>
-        <h1>Formulario de Contacto</h1>
+        <h1 id="formulario">Formulario de Contacto</h1>
             <form action="" method="get">
                 <fieldset>
                     <legend><h3>Mensaje</h3></legend>
@@ -109,7 +113,10 @@
         <img src="./img/twitter-logo-9.png" width="50" alt="instagram"></a>
         
         <h3>Telefono de contacto</h3>
+            <p id="cel">Cel: 11458696223</p>
         <h3>Direccion</h3>
+        <p id="direccionlocal">Rivadavia 1278, Zarate Buenos Aires,
+        Codigo Postal: 2800</p>
         <h3>Preguntas Frecuentes</h3>
     </div>
     
