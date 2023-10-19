@@ -11,7 +11,7 @@ form{
 }
 
 body {background:rgba(199, 228, 235, 0.893);
-        background-image: url("./img/fondo-texturizado.jpg");
+        background-image: url("./img/fondo.jpg");
         
         
 }
@@ -19,6 +19,13 @@ footer{background:lightcyan;}
 a{
     text-decoration: none;
     text-shadow: 3px 3px 3px black;
+}
+
+a#preguntas{
+    text-decoration: none;
+    color:darkslategray;
+    text-shadow: none;
+
 }
 
 h1 { 
@@ -58,6 +65,10 @@ h3{
 
 }
 
+h3#preguntas{
+    color:solid black 
+}
+
 ul{
 
     text-align: center;
@@ -65,4 +76,52 @@ ul{
 
 li{
     text-align: center;
+}
+
+.container{
+            
+    padding: 5px;
+    margin: 10px;
+    border-width: 5px 5px 4px 5px;
+    min-height:270px;
+   max-height: 270px;
+   
+}
+
+.container2 {
+
+    padding: 5px;
+    margin: 10px 10px 100px 10px;
+    border-width: 5px 5px 4px 5px;
+    min-height:50px;
+   max-height: 50px;
+}
+
+.containerlogo {
+
+    padding: 5px;
+    margin: 10px 10px 10px 560px;
+    border-width: 5px 5px 4px 5px;
+    min-height:200px;
+   max-height: 200px;
+   min-width: auto;
+   max-width: 300px;
+}
+
+.containerRedes {
+
+    padding: 5px;
+    margin: 10px 10px 10px 660px;
+    border-width: 5px 5px 4px 5px;
+    min-height:50px;
+   max-height: 50px;
+}
+
+.containersuscripcion {
+
+    padding: 5px;
+    margin: 10px 10px 10px 640px;
+    border-width: 5px 5px 4px 5px;
+    min-height:50px;
+   max-height: 50px;
 }
