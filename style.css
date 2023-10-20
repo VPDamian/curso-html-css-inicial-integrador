@@ -1,9 +1,11 @@
 header {background-color:lightcyan;
-        background-attachment:scroll;    
+        background-attachment:scroll;
+        
 }
 
 nav{
     background-color: rgb(207, 244, 244);
+    position: relative;
 }
 
 form{
@@ -35,6 +37,18 @@ h1 {
 }
 h1#formulario{
     text-align: left;
+}
+
+fieldset#usuario{
+        padding:1px 1px 1px 1px ;
+        margin: 2px 2px 0px 0px;
+        
+        
+        border-left: 0px;
+        display:flex;
+        flex-direction:row;
+        position:relative;
+
 }
 
 h2{
