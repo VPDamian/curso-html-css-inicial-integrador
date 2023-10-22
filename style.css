@@ -25,12 +25,12 @@ footer{background:lightcyan;
 a{
     text-decoration: none;
     text-shadow: 3px 3px 3px black;
-    text
+
 }
 
 a#preguntas{
-    text-decoration: none;
-    color:darkslategray;
+    
+    color: darkslategray ;
     text-shadow: none;
 
 }
