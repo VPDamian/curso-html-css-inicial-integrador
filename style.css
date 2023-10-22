@@ -68,6 +68,14 @@ footer{
 }
 h1#medios{
     color: black;
+    text-align: center;
+    
+}
+
+h3#tel{
+    display: flex;
+    justify-content: center;
+    
 }
 
 h1#redes{
@@ -138,4 +146,10 @@ li{
     border-width: 5px 5px 4px 5px;
     min-height:50px;
    max-height: 50px;
+}
+
+.containerformulario{
+    display: flex;
+    justify-content:end
+    
 }
