@@ -18,9 +18,9 @@
         <img class="containerlogo" src="./HELENAS--PhotoRoom.png-PhotoRoom.png" alt="Logo de la Tienda">
     </a>
     <nav>
-        <div>
+        <div class="pestañas">
             <a href="">Indumentaria</a>
-            <a href="">Joyeria</a>
+            <a href="Joyeria.html">Joyeria</a>
             <a href="">Accesorios</a>
             <a href="">Hogar</a>
             <a href="">Outlet</a>
@@ -31,31 +31,17 @@
 
         </div> 
 </nav>
-<form name="contacto" method="get" action="http://127.0.0.1:5500/contacto.html" >
-    <div class="containerformulario">
-        <fieldset id="usuario">
-            <legend>Iniciar Sesion</legend>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" type="email" autocomplete placeholder="Ingrese su Email" required>
-            </div>
-
-            <div>
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" type="password"placeholder="Ingrese su Contraseña" required>
-            </div>
-
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="submit" value="Crear Cuenta">
-                <a href="" target="_self">
-                    <img src="./img/carro-de-la-carretilla.png" alt="carrito de compra"width="25">
-                </a>
-        
-            </div>
+    <div class="cuentas">
+        <nav id="cuenta">
+            <img src="./img/retrato.png" alt="cuenta creada" width="15"   >
+            <a href="">Iniciar Sesion</a>
+            <img src="./img/agregar-usuario.png" alt="nueva cuenta" width="15"  >
+            <a href="">Crear Cuenta</a>
+            <a href="" target="_self">
+            <img src="./img/carro-de-la-carretilla.png" alt="carrito de compra"width="25">
+            </a>
+        </nav>
     </div>
-    </fieldset>
-</form>
         
 </header>
         <h1>Sobre Nuestra Tienda</h1>
@@ -73,7 +59,7 @@
                 Codigo Postal: 2800
             </p>
    <!--Formulario de Contacto Aqui-->
-   <div>
+   <div class="formulario">
         <h1 id="formulario">Formulario de Contacto</h1>
             <form action="" method="get">
                 <fieldset>

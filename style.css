@@ -73,6 +73,7 @@ p {
 
 footer{
         background-color: lightcyan;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         
 }
 h1#medios{
@@ -174,4 +175,8 @@ div.cuentas{
     right: 8px;
     background-color:lightcyan;
     
+}
+
+label{
+    display: block;
 }
