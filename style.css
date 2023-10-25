@@ -122,6 +122,7 @@ li{
     border-width: 5px 5px 4px 5px;
     min-height:270px;
    max-height: 270px;
+    border-style:groove;
    
 }
 
