@@ -2,11 +2,15 @@ header {background-color:lightcyan;
         background-attachment:scroll;
         
 }
+
+
+
 div.pestañas{
     background-color: rgb(202, 253, 250);
     position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
+    
     
 }
 
@@ -113,7 +117,7 @@ li{
 
 .container{
             
-    padding: 5px;
+    padding: 20px;
     margin: 10px;
     border-width: 5px 5px 4px 5px;
     min-height:270px;
@@ -124,15 +128,18 @@ li{
 .container2 {
 
     padding: 5px;
+    padding-top: 120px;
     margin: 10px 10px 100px 10px;
     border-width: 5px 5px 4px 5px;
     min-height:50px;
    max-height: 50px;
+  
 }
 
 .containerlogo {
 
     padding: 5px;
+    padding-top: 15px;
     margin: 10px 10px 10px 560px;
     border-width: 5px 5px 4px 5px;
     min-height:200px;
@@ -162,6 +169,7 @@ li{
 .containermercaderia{
     display: flex;
     justify-content: center;
+     
 }
 
 div#informacion{
@@ -170,12 +178,18 @@ div#informacion{
     
 }
 
+
 div.cuentas{
     position: absolute;
     top: 8px;
     right: 8px;
-    background-color:lightcyan;
+    background-color:rgb(202, 253, 250);
+    padding-left: 1236px;
     
+}
+span.separator{
+    color: black;
+    font-size: 20px;
 }
 
 label{
