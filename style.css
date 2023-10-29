@@ -126,16 +126,6 @@ li{
    
 }
 
-.container2 {
-
-    padding: 5px;
-    padding-top: 120px;
-    margin: 10px 10px 100px 10px;
-    border-width: 5px 5px 4px 5px;
-    min-height:50px;
-   max-height: 50px;
-  
-}
 
 .containerlogo {
 
@@ -169,8 +159,28 @@ li{
 
 .containermercaderia{
     display: flex;
+    
     justify-content: center;
+    align-items: center;
+
      
+}
+
+div.card{
+    box-sizing:border-box;
+    flex-basis: calc(100%/3);
+    border-style: groove;
+    padding: 10px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.flecha1{
+    display: flex;
+    justify-content: center;
 }
 
 div#informacion{
@@ -187,6 +197,10 @@ div.cuentas{
     background-color:rgb(202, 253, 250);
     padding-left: 1236px;
     
+}
+
+div.caja{
+    flex-direction: row;
 }
 span.separator{
     color: black;
