@@ -24,6 +24,19 @@ body {background:rgba(199, 228, 235, 0.893);
         
         
 }
+
+body.joyeria {
+    margin: 0;
+    min-height: 100vh;
+    
+   
+}
+
+div.joyas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 footer{background:lightcyan;
 }
 
@@ -44,6 +57,8 @@ h1 {
     color: black;
     text-align:center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
     
 }
 h1#formulario{
@@ -95,6 +110,7 @@ h3#tel{
 
 h1#redes{
     color: black;
+    
 }
 
 h3{
@@ -106,14 +122,6 @@ h3#preguntas{
     color:solid black 
 }
 
-ul{
-
-    text-align: center;
-}
-
-li{
-    text-align: center;
-}
 
 .container{
             
@@ -159,9 +167,13 @@ li{
 
 .containermercaderia{
     display: flex;
-    
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    
 
      
 }
@@ -170,18 +182,15 @@ div.card{
     box-sizing:border-box;
     flex-basis: calc(100%/3);
     border-style: groove;
-    padding: 10px;
+    padding: 3px;
 
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
+   align-items: center;
 }
 
-div.flecha1{
-    display: flex;
-    justify-content: center;
-}
+
 
 div#informacion{
     display: flex;
