@@ -1,5 +1,7 @@
-header {background-color:lightcyan;
-        background-attachment:scroll;
+header {
+    margin: 0px;
+    background-color:lightcyan;
+    background-attachment:scroll;
         
 }
 
@@ -19,7 +21,9 @@ form{
     background-color:transparent;
 }
 
-body {background:rgba(199, 228, 235, 0.893);
+body {
+    margin: 0px;
+    background:rgba(199, 228, 235, 0.893);
         background-image: url("./img/fondo.jpg");
         
         
@@ -37,7 +41,8 @@ div.joyas{
     grid-template-columns: 1fr 1fr;
 }
 
-footer{background:lightcyan;
+footer{
+    background:lightcyan;
 }
 
 a{
@@ -92,6 +97,8 @@ p {
 }
 
 footer{
+    display: flex;
+    justify-content: space-between;
         background-color: lightcyan;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         
@@ -108,7 +115,7 @@ h3#tel{
     
 }
 
-h1#redes{
+h1#S{
     color: black;
     
 }
@@ -149,11 +156,10 @@ h3#preguntas{
 
 .containerRedes {
 
-    padding: 5px;
-    margin: 10px 10px 10px 670px;
-    border-width: 5px 5px 4px 5px;
+    display: flex;
     min-height:50px;
    max-height: 50px;
+   
 }
 
 .containersuscripcion {
@@ -209,8 +215,26 @@ div.cuentas{
 }
 
 div.caja{
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 10px;
 }
+
+
+div.redes{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+div.contacto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+}
+
 span.separator{
     color: black;
     font-size: 20px;
