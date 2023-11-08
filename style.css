@@ -2,10 +2,15 @@ header {
     margin: 0px;
     background-color:lightcyan;
     background-attachment:scroll;
-        
+    display: flex;
+    flex-direction: column;
+
 }
 
-
+legend h1{
+    text-align: left;
+    font-size: 1.5rem;
+}
 
 div.pestañas{
     background-color: rgb(202, 253, 250);
@@ -19,6 +24,13 @@ div.pestañas{
 
 form{
     background-color:transparent;
+}
+
+fieldset{
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    background-color: teal;
 }
 
 body {
@@ -68,6 +80,7 @@ h1 {
 }
 h1#formulario{
     text-align: left;
+   
 }
 
 fieldset#usuario{
@@ -143,15 +156,11 @@ h3#preguntas{
 
 
 .containerlogo {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
-    padding-top: 15px;
-    margin: 10px 10px 10px 560px;
-    border-width: 5px 5px 4px 5px;
-    min-height:200px;
-   max-height: 200px;
-   min-width: auto;
-   max-width: 300px;
+   
 }
 
 .containerRedes {
@@ -179,6 +188,7 @@ h3#preguntas{
     display: grid;
     grid-template-rows: 1fr 1fr ;
     grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 50px;
     
 
      
@@ -206,11 +216,13 @@ div#informacion{
 
 
 div.cuentas{
-    position: absolute;
-    top: 8px;
-    right: 8px;
+
     background-color:rgb(202, 253, 250);
-    padding-left: 1236px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
     
 }
 
