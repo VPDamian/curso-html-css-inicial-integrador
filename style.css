@@ -26,12 +26,6 @@ form{
     background-color:transparent;
 }
 
-fieldset{
-    border-left: 0px;
-    border-bottom: 0px;
-    border-right: 0px;
-    background-color: teal;
-}
 
 body {
     margin: 0px;
@@ -83,6 +77,13 @@ h1#formulario{
    
 }
 
+fieldset{
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgb(134, 210, 210);
+}
+
 fieldset#usuario{
         padding:1px 1px 1px 1px ;
         margin: 2px 2px 0px 0px;
@@ -106,7 +107,12 @@ h2{
 p {
     color: black;
     text-align: center;
+    margin: 0px;
    
+}
+
+h4{
+    margin: 10px;
 }
 
 footer{
@@ -119,6 +125,7 @@ footer{
 h1#medios{
     color: black;
     text-align: center;
+    margin: 0px;
     
 }
 
@@ -130,6 +137,7 @@ h3#tel{
 
 h1#S{
     color: black;
+    margin-top: 0px;
     
 }
 
@@ -183,30 +191,32 @@ h3#preguntas{
 .containermercaderia{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+
+    justify-content:space-around;
     align-items: center;
-    display: grid;
+    /*display: grid;
     grid-template-rows: 1fr 1fr ;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    gap: 50px;
-    
+    grid-template-columns:1fr 1fr 1fr 1fr;*/
+  
+   gap: 50px;
+   
 
      
 }
 
 div.card{
     box-sizing:border-box;
-    flex-basis: calc(100%/3);
-    border-style: groove;
-    padding: 3px;
+    border-style:outset;
+
+    flex-basis: 20%;
 
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
-   align-items: center;
+    align-items: center;
+    /*justify-content: center;
+   align-items: center;*/
 }
-
-
 
 div#informacion{
     display: flex;
@@ -222,7 +232,7 @@ div.cuentas{
     justify-content: end;
     align-items: center;
     padding-left: auto;
-    padding-right: auto;
+    padding-right: 15px;
     
 }
 
@@ -231,6 +241,11 @@ div.caja{
     flex-direction: column;
     align-items:flex-start;
     margin-left: 10px;
+}
+
+div.payment p{
+    margin: 6px;
+    
 }
 
 
@@ -244,8 +259,10 @@ div.contacto{
     display: flex;
     flex-direction: column;
     margin-right: 20px;
+    align-items: flex-end;
 
 }
+
 
 span.separator{
     color: black;
@@ -255,3 +272,25 @@ span.separator{
 label{
     display: block;
 }
+
+.contacto h3{
+    margin: 0px;
+}
+
+@media screen and (min-width:800px) {   
+    .containermercaderia{
+        max-width: 100%;
+        
+
+    }
+    header{
+        max-width: 100%;
+    }
+    
+    div.cuentas{
+        max-width: 100%;
+    }
+}
+
+
+    
