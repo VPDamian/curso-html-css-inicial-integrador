@@ -15,88 +15,77 @@
 
 </head>
 
-<body class="joyeria">
+<body>
+
     <header>
         <div class="cuentas">
             <nav id="cuenta">
+                <span class="separator">|</span>
                 <img src="./img/retrato.png" alt="cuenta creada" width="15">
-                <a href="Iniciar sesion.html">Iniciar Sesion</a>
+                <a href="">Iniciar Sesion</a>
+                <span class="separator">|</span>
                 <img src="./img/agregar-usuario.png" alt="nueva cuenta" width="15">
                 <a href="">Crear Cuenta</a>
+                <span class="separator">|</span>
                 <a href="" target="_self">
                     <img src="./img/carro-de-la-carretilla.png" alt="carrito de compra" width="25">
                 </a>
             </nav>
         </div>
-
         <div class="containerlogo">
             <a href="http://127.0.0.1:5500" target="_self">
                 <img src="./HELENAS--PhotoRoom.png-PhotoRoom.png" width="300" alt="Logo de la Tienda">
             </a>
         </div>
 
-        <nav>
-            <div class="pestañas">
-                <span class="separator">|</span>
-                <a href="">Indumentaria</a>
-                <span class="separator">|</span>
-                <a href="Joyeria.html">Joyeria</a>
-                <span class="separator">|</span>
-                <a href="">Accesorios</a>
-                <span class="separator">|</span>
-                <a href="">Hogar</a>
-                <span class="separator">|</span>
-                <a href="">Outlet</a>
-                <span class="separator">|</span>
-                <a href="">FAQ</a>
-                <span class="separator">|</span>
-                <a href="">Envios</a>
-                <span class="separator">|</span>
-                <a href="contacto.html">
-                    Contactanos</a>
-                <span class="separator">|</span>
-            </div>
-        </nav>
-
+        <div class="barras">
+            <nav id="barra">
+                <div class="pestañas">
+                    <span class="separator">|</span>
+                    <a href="">Indumentaria</a>
+                    <span class="separator">|</span>
+                    <a href="Joyeria.html">Joyeria</a>
+                    <span class="separator">|</span>
+                    <a href="">Accesorios</a>
+                    <span class="separator">|</span>
+                    <a href="">Hogar</a>
+                    <span class="separator">|</span>
+                    <a href="">Outlet</a>
+                    <span class="separator">|</span>
+                    <a href="">FAQ</a>
+                    <span class="separator">|</span>
+                    <a href="">Envios</a>
+                    <span class="separator">|</span>
+                    <a href="contacto.html">
+                        Contactanos</a>
+                    <span class="separator">|</span>
+                </div>
+            </nav>
+        </div>
     </header>
+    <div class="sesion">
+        <h1>Iniciar Sesion</h1>
+        <form action="" method="get">
+            <fieldset>
 
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="#">Plata</a></li>
-                <li><a href="#">Acero Quirurgico</a></li>
-                <li><a href="#">Oro Blanco</a></li>
-            </ul>
-        </nav>
-    </aside>
-    <h1>Joyeria</h1>
-    <fieldset>
-        <legend>
-            <h1>Acero Quirurgico</h1>
-        </legend>
-        <main>
-            <div class="joyas">
-                <div class="card">
-                    <img src="./img/Pulser azul buda.jpg" width="232" alt="imagen de producto">
-                    <p>Pulsera azul buda</p>
-                </div>
-                <div class="card">
-                    <img src="./img/Pulsera corona rosa.jpg" width="200" alt="imagen de producto">
-                    <p>Pulsera corona rosa</p>
-                </div>
-            </div>
-        </main>
-    </fieldset>
-    
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
 
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="password" id="contraseña" required>
+
+                <button type="submit"> Iniciar Sesion </button>
+            </fieldset>
+        </form>
+    </div>
 
 
 </body>
-
 <footer>
 
+
     <div class="caja">
-        <h1 id="medios">Medios de Pago</h1>
+        <p id="medios">Medios de Pago</p>
         <div class="payment">
             <p>
                 Tarjetas de Debito
@@ -125,7 +114,9 @@
 
     </div>
     <div class="redes">
-        <h1 id="S">Seguinos!</h1>
+        <p id="S">
+            Nuestras Redes Sociales
+        </p>
         <div class="containerRedes">
             <a href="https://www.facebook.com/diegodamian.vanpamel" target="_blank">
                 <img src="./img/3d-render-facebook.png" width="50" alt="facebook"></a>
@@ -145,6 +136,8 @@
             <h3>Preguntas Frecuentes</h3>
         </a>
     </div>
+
+
 
 </footer>
 
