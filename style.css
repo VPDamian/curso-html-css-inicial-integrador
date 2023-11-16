@@ -114,6 +114,7 @@ h4{
 footer{
     background:lightcyan;
     display: flex;
+    flex-flow: wrap ;
     justify-content: space-evenly;
         background-color: lightcyan;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -262,14 +263,19 @@ div.contacto{
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    align-items: flex-start;
+    align-items: center;
 
 }
-.contacto :nth-child(1){
+.contacto h4{
+    margin: 0px;
     font-style: oblique;
     font-weight: bolder;
     padding-bottom: 5px;
     
+}
+
+a h3{
+    padding-top: 5px;
 }
 
 
